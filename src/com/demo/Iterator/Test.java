@@ -4,7 +4,8 @@ public class Test {
     public static void main(String[] args){
         Menu pancakeMenu = new PancakeMenu();
         Menu dinerMenu = new DinerMenu();
-        Waitress waitress = new Waitress(pancakeMenu, dinerMenu);
+        Menu cafeMenu = new CafeMenu();
+        Waitress waitress = new Waitress(pancakeMenu, dinerMenu, cafeMenu);
         waitress.printMenu();
     }
 }
