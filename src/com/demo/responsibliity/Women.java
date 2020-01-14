@@ -16,6 +16,8 @@ public class Women implements IWomen {
             case 3:
                 this.request = " type :" + type + " :" +request;
                 break;
+             default:
+                 break;
         }
 
     }

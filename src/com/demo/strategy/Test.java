@@ -6,5 +6,7 @@ public class Test {
         IStrategy strategy2 = new ConcreteStrategy2();
         Context context = new Context(strategy2);
         context.doAnything();
+        Context context1 = new Context(strategy);
+        context1.doAnything();
     }
 }
